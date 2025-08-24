@@ -1,9 +1,6 @@
-from pages.registration_page import RegistrationPage
+from pages.left_panel_page import LeftPanelPage
 
 
 class ApplicationManager:
     def __init__(self):
-        self.registration = RegistrationPage()
-        # потом можно добавить и другие PageObject (например LeftPanel)
-
-app = ApplicationManager()
+        self.left_panel = LeftPanelPage()
